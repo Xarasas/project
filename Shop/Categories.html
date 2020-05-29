@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="stylesheet.css" rel="stylesheet">
+    <script defer src="shop.js"></script>
+    <title>Online Shop</title>
+</head>
+<body>
+    <div id="navbar">
+        <img src="https://i.dlpng.com/static/png/6942439_preview.png">
+        <p>penmarket</p>
+        <div>
+        <ul>
+            <a href="Categories.html"><li>Home</li></a>
+            <a href="Categories.html"><li>Categories</li></a>
+            <li>Contact</li>
+            <a href="ShopCart/index.html"><li>Cart</li></a>
+            <p id="cartNum" class="cartNum"></p>
+        </ul>
+        </div>
+    </div>
+    <div id="items">
+        <div id="festplatte">
+            <a href="/Item2/index.html" onclick="storage1()">
+            <img src="https://files.rakuten-static.de/0a0a3078e4c67d6f6e4a09c17ff58456/images/09fb7f33d437560c79882ff663267da1.jpg">
+            </a>
+            <p>WD Elements 1TB Festplatte</p>
+            <p class="priceCat">52,99 €</p>
+        </div>
+        <div id="bildschirm">
+            <a href="/item1/index.html" onclick="storage2()">
+            <img src="https://files.rakuten-static.de/7f2075fbb03b25382cb65e5b900a7cb3/images/54d57a56cf5afb93f8124a6217b4a97a.jpg">
+            </a>
+            <p>Dell Alienware AW2521HF, 24.5"</p>
+            <p class="priceCat">422,21 €</p>
+        </div>
+    </div>
+
+    <script>
+        function storage2(){
+            localStorage.setItem('viewItem', '55002')
+        };
+
+        function storage1(){
+            localStorage.setItem('viewItem', '55001')
+        };
+    </script>
