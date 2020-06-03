@@ -1,0 +1,345 @@
+/* page reset and link styling */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+  /*  font-family: 'Montserrat', sans-serif; */
+  /*  font-family: 'Alfa Slab One', cursive; */
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #42200b;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #42200b; 
+}
+
+a:hover{
+    color: white;
+}
+
+/* Main Promotion Section Design */
+
+.main-promo {
+    background-color: #ffc135;
+    height: 825px;
+}
+
+.navbar__logo {
+    width: 263px;
+    height: 58px;
+    position: relative;
+    left: 57px;
+    top: 53px;
+}
+
+.navbar__logo__icon {
+    height: 58px;
+    border: none;
+}
+
+.navbar__logo__text {
+    left: 22px;
+    bottom: 10px;
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    font-size: 40px;
+}
+
+.navbar__contact {
+    position: relative;
+    left: 1056px;
+    width: 330px;
+    height: 33px;
+    z-index: 1;
+}
+
+.navbar__contact__icon {
+    height: 33px;
+}
+
+.navbar__contact__text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 10px;
+    display: inline-block;
+    height: 18px;
+    position: relative;
+    bottom: 6px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.navbar__menu{
+    width: 478px;
+    height: 15px;
+    list-style: none;
+    position: relative;
+    left:905px;
+    right: 56px;
+    top: 34px;
+    z-index: 1;
+}
+
+.navbar__menu__links{
+    display: inline-block;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-left: 35px;
+    padding-right: 3px;
+    font-size: 20px;
+}
+
+.main-promo__slogan {
+    width: 404px;
+    height: 50px;
+    border: 2px dashed;
+    line-height: 50px;
+    text-align: center;
+    font-size: 23.5px;
+    position: relative;
+    left: 62px;
+    top: 175px;
+}
+
+.main-promo__title {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 114.5px;
+    text-shadow: 3.9px 4.5px #ffe9bc;
+    position: relative;
+    left: 61px;
+    top: 170px;
+    z-index: 1;
+}
+
+.main-promo__subtitle {
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-size: 56.5px;
+    position: relative;
+    text-shadow: 3.9px 4.5px #ffe9bc;
+    left: 61px;
+    top: 142px;
+}
+
+.price-circle__outer {
+    height: 174px;
+    width: 174px;
+    border-radius: 50%;
+    background-color: #df1c1c;
+    position: relative;
+    left: 749px;
+    top: 194px;
+    z-index: 3;
+}
+
+.price-circle__inner {
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+    background-color: #df1c1c;
+    border: 2px dashed #ffffff;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.price-circle__dollar {
+    width: 84px;
+    height: 91px;
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    font-size: 70px;
+    line-height: 38px;
+}
+
+.price-circle__cent {
+    font-size: 30.5px;
+    line-height: 20px;
+}
+
+.price-circle__text{
+    font-size: 33.5px;
+    letter-spacing: 11.39px;
+}
+
+.main-promo__fries-img {
+    position: relative;
+    width: 350px;
+    left: 700px;
+    bottom: 450px;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+.main-promo__burger-img {
+    position: relative;
+    width: 440px;
+    left: 460px;
+    bottom: 390px;
+    z-index: 2;
+}
+
+.main-promo__coke-img {
+    position: relative;
+    width: 500px;
+    left: 180px;
+    bottom: 400px;
+    z-index: 1;
+}
+
+.main-promo__glow-img {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 10px 10px 200px 200px white;
+    bottom: 1010px;
+    left: 800px;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+/* Burger Cards Section */
+
+.burgerCards {
+    margin-top: 78px;
+    margin-left: 109px;
+}
+
+.burgerCard_left {
+    width: 596px;
+    height: 420px;
+    background-image: url(/images/secion-B-card1.jpeg);
+    background-size: contain;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.burgerCard_right {
+    width: 596px;
+    height: 420px;
+    display: inline-block;
+    margin-left: 42px;
+}
+
+.burgerCard_top {
+    height: 192px;
+    background-image: url(/images/section-B-card2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.burgerCard_bottom {
+    height: 192px;
+    margin-top: 36px;
+    background-image: url(/images/section-b-card3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.burgerCards__button {
+    text-transform: uppercase;
+    background-color: #ffc135;
+    border: none;
+    width: 218px;
+    height: 48px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin-top: 71px;
+    margin-left: 611px;
+    transform: translateX(-50%);
+    outline: none;
+}
+
+.burgerCards__button:hover {
+    cursor: pointer;
+    color:  #ffffff;
+}
+
+/* Burger Information Section*/
+
+.burgerInformation {
+ margin-top: 39px;
+}
+
+.burgerInformation__subtitle {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.burgerInformation__text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16.7px;
+    text-align: center;
+}
+
+.burgerInformation__tile {
+    height: 524px;
+    width: 342px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 103.5px;
+}
+
+.burgerInformation__tile-img {
+    width: 332px;
+}
+
+.burgerInformation__tile-title {
+    font-size: 37.5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 71px;
+}
+
+.burgerInformation__tile-text {
+    font-size: 16.7px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1.25;
+    margin-top: 6.3px;
+}
+
+.burgerInformation__tile-button {
+    width: 195px;
+    height: 57px;
+    margin-left: 73.5px;
+    margin-top: 36px;
+    background-color: #df1c1c;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16.7px;
+}
+
+.burgerInformation__tile-button:hover {
+    cursor: pointer;
+    color: #df1c1c;
+    background-color: #ffffff;
+    border: 2px solid #df1c1c;
+}
