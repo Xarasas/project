@@ -28,6 +28,10 @@ a:hover{
     color: white;
 }
 
+a:visited {
+    color: #42200b;
+}
+
 /* Main Promotion Section Design */
 
 .main-promo {

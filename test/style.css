@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+width: 200px;
+height: 200px;
+background: red;
+display: flex;
+}
+
+.two {
+width: 200px;
+height: 200px;
+background: blueviolet;
+display: inline-block;
+}
+
+.one-one {
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.one-two {
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    display: inline-block;
+
+}
+.one-three {
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+
+}
+
+.one-four {
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+}
